@@ -1,0 +1,189 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                @font-face {
+                    font-family: "Candy";
+                    src: url(../css/BamsHand.ttf)
+                }
+                
+                @font-face {
+                    font-family: "London";
+                    src: url(../css/LondonBetween.ttf)
+                }
+                
+                html {
+                    scroll-behavior: smooth;
+                    scroll-margin-bottom: 80px;
+                }
+                
+                body {
+                    font-family: 'London';
+                }
+                
+                .div1 {
+                    background: url(../imagens/Bolo1.jpg) no-repeat center;
+                    background-size: cover;
+                    height: 38em;
+                }
+                
+                .div2 {
+                    height: 38em;
+                }
+                
+                .div3 {
+                    background-color: rgba(39, 39, 39, 0.7);
+                    z-index: 20;
+                }
+                
+                .div3 li a {
+                    font-size: 12px;
+                }
+                
+                .div3 h4 {
+                    font-size: 26px;
+                    font-family: "Candy";
+                }
+                
+                .cardimagem1 {
+                    background: url(../imagens/bolo-cenoura.png) no-repeat center;
+                    background-size: cover;
+                    height: 120px;
+                    border-radius: 10px 10px 0 0;
+                }
+                
+                .cardimagem2 {
+                    background: url(../imagens/bolo-chocolate.png) no-repeat center;
+                    background-size: cover;
+                    height: 120px;
+                    border-radius: 10px 10px 0 0;
+                }
+                
+                .cardimagem3 {
+                    background: url(../imagens/bolo-laranja.png) no-repeat center;
+                    background-size: cover;
+                    height: 120px;
+                    border-radius: 10px 10px 0 0;
+                }
+                
+                .cardimagem4 {
+                    background: url(../imagens/bolo-limao.png) no-repeat center;
+                    background-size: cover;
+                    height: 120px;
+                    border-radius: 10px 10px 0 0;
+                }
+                
+                .cardimagem5 {
+                    background: url(../imagens/bolo-formigueiro.png) no-repeat center;
+                    background-size: cover;
+                    height: 120px;
+                    border-radius: 10px 10px 0 0;
+                }
+                
+                .cardtexto {
+                    height: 200px;
+                    border-radius: 0 0 10px 10px;
+                }
+                
+                .div5 {
+                    height: 25em;
+                }
+                
+                .bg-modal {
+                    position: fixed;
+                    top: -150%;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    height: 100vh;
+                    width: 100vw;
+                    background-color: rgba(20, 20, 20, 0.6);
+                    z-index: 30;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: 350ms;
+                }
+                
+                .modal1 {
+                    background-color: #ffffff;
+                    width: 20%;
+                    min-width: 300px;
+                    text-align: center;
+                    height: 230px;
+                    padding: 25px;
+                    border: 15px solid rgb(31, 31, 31);
+                    box-shadow: 0 0 0 10px white;
+                    position: relative;
+                    margin: auto;
+                    top: 0;
+                    bottom: 0;
+                }
+                
+                .fechar {
+                    position: absolute;
+                    top: -55px;
+                    right: -55px;
+                    width: 40px;
+                    height: 40px;
+                    font-weight: bold;
+                    color: rgb(255, 255, 255);
+                    transition: 350ms;
+                    font-size: 27px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                }
+                
+                .zoom {
+                    overflow: hidden;
+                }
+                
+                .zoom {
+                    max-width: 100%;
+                    -moz-transition: all 0.3s;
+                    -webkit-transition: all 0.3s;
+                    transition: all 0.3s;
+                }
+                
+                .zoom:hover {
+                    -moz-transform: scale(1.1);
+                    -webkit-transform: scale(1.1);
+                    transform: scale(1.1);
+                }
+                
+                .recomendacoes {
+                    height: 600px;
+                }
+                
+                @media (max-width: 992px) {
+                    .div4 {
+                        background-color: rgba(36, 35, 35, 0.4);
+                        text-align: center;
+                    }
+                    li a {
+                        font-size: 11px;
+                    }
+                    .recomendacoes {
+                        height: 1200px;
+                    }
+                }
+                
+                @media (max-width: 768px) {
+                    .div5 {
+                        height: 50em;
+                    }
+                    .margemcontato {
+                        margin-top: 80px;
+                    }
+                    .menudrop a {
+                        font-size: 18px;
+                        line-height: 35px;
+                    }
+                    .cardtexto a {
+                        width: 60%;
+                        height: 35px;
+                    }
+                }
