@@ -197,25 +197,25 @@
                 .linkme {
                     cursor: pointer;
                     text-decoration: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                 }
                 
                 .imaarques {
-                    margin: 0 auto;
-                }
-                
-                .imaarques img {
-                    margin: 0 auto;
-                    width: 85px;
-                    height: auto;
+                    width: auto;
+                    padding-top: 10px;
+                    height: 4em;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                 }
                 
                 .desenvolvidopor {
-                    color: white;
                     text-align: center;
                     margin: 0 auto;
                     letter-spacing: 1px;
                     font-size: 11px;
+                    margin-right: 10px;
+                    color: white;
                 }
