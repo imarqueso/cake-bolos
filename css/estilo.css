@@ -155,12 +155,16 @@
                 }
                 
                 .recomendacoes {
-                    height: 600px;
+                    height: 400px;
                 }
                 
                 .rodape {
                     background-color: rgb(24, 24, 24);
                     color: white;
+                    height: 200px;
+                }
+                
+                .divrecomendacoes {
                     height: 200px;
                 }
                 
@@ -173,7 +177,7 @@
                         font-size: 11px;
                     }
                     .recomendacoes {
-                        height: 1200px;
+                        height: 800px;
                     }
                 }
                 
