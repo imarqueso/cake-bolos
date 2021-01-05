@@ -178,7 +178,10 @@
                         font-size: 11px;
                     }
                     .recomendacoes {
-                        height: 800px;
+                        height: 900px;
+                    }
+                    .divrecomendacoes {
+                        height: 250px;
                     }
                 }
                 
