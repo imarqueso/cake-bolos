@@ -8,28 +8,32 @@
                     src: url(../css/BamsHand.ttf)
                 }
                 
-                @font-face {
-                    font-family: "London";
-                    src: url(../css/LondonBetween.ttf)
-                }
-                
                 html {
                     scroll-behavior: smooth;
                     scroll-margin-bottom: 80px;
                 }
                 
                 body {
-                    font-family: 'London';
+                    font-family: 'Open Sans', sans-serif;
+                }
+                
+                .tamanhoTopo {
+                    height: 100vh;
+                }
+                
+                .titulo1 {
+                    font-size: 50px;
                 }
                 
                 .div1 {
                     background: url(../imagens/Bolo1.jpg) no-repeat center;
+                    background-color: rgb(27, 27, 27);
                     background-size: cover;
                     height: 100vh;
                 }
                 
                 .div2 {
-                    height: 38em;
+                    height: 100vh;
                 }
                 
                 .div3 {
@@ -44,6 +48,10 @@
                 .div3 h4 {
                     font-size: 26px;
                     font-family: "Candy";
+                }
+                
+                .div4 {
+                    padding-top: 35px;
                 }
                 
                 .cardimagem1 {
@@ -171,10 +179,6 @@
                 }
                 
                 @media (max-width: 992px) {
-                    .div4 {
-                        background-color: rgba(36, 35, 35, 0.4);
-                        text-align: center;
-                    }
                     li a {
                         font-size: 11px;
                     }
@@ -183,6 +187,9 @@
                     }
                     .divrecomendacoes {
                         height: 250px;
+                    }
+                    .titulo1 {
+                        font-size: 30px;
                     }
                 }
                 
