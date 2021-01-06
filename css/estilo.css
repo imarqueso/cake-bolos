@@ -15,6 +15,7 @@
                 
                 body {
                     font-family: 'Open Sans', sans-serif;
+                    background-color: rgb(49, 49, 49);
                 }
                 
                 .tamanhoTopo {
@@ -58,41 +59,42 @@
                     background: url(../imagens/bolo-cenoura.png) no-repeat center;
                     background-size: cover;
                     height: 120px;
-                    border-radius: 5px;
+                    border-radius: 20px;
                 }
                 
                 .cardimagem2 {
                     background: url(../imagens/bolo-chocolate.png) no-repeat center;
                     background-size: cover;
                     height: 120px;
-                    border-radius: 5px;
+                    border-radius: 20px;
                 }
                 
                 .cardimagem3 {
                     background: url(../imagens/bolo-laranja.png) no-repeat center;
                     background-size: cover;
                     height: 120px;
-                    border-radius: 5px;
+                    border-radius: 20px;
                 }
                 
                 .cardimagem4 {
                     background: url(../imagens/bolo-limao.png) no-repeat center;
                     background-size: cover;
                     height: 120px;
-                    border-radius: 5px;
+                    border-radius: 20px;
                 }
                 
                 .cardimagem5 {
                     background: url(../imagens/bolo-formigueiro.png) no-repeat center;
                     background-size: cover;
                     height: 120px;
-                    border-radius: 5px;
+                    border-radius: 20px;
                 }
                 
                 .cardtexto {
                     height: 200px;
-                    border-radius: 5px;
+                    border-radius: 20px;
                     margin-top: 5px;
+                    background-color: rgb(49, 49, 49);
                 }
                 
                 .div5 {
@@ -189,7 +191,7 @@
                         height: 250px;
                     }
                     .titulo1 {
-                        font-size: 30px;
+                        font-size: 38px;
                     }
                 }
                 
@@ -242,7 +244,7 @@
                 }
                 
                 .card2 {
-                    border-radius: 5px;
-                    background-color: rgb(230, 227, 227);
-                    padding: 10px;
+                    background-color: rgb(24, 24, 24);
+                    padding: 20px;
+                    border-radius: 20px;
                 }
