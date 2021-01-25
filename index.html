@@ -64,7 +64,7 @@
 
         <div class="row tamanhoTopo">
             <div class="col-12 col-lg-7 div2 p-0 d-flex justify-content-center align-items-center">
-                <div class="col-10 col-sm-9 col-md-7 col-lg-10 col-xl-8 rounded m-auto div4" data-anime="esquerda">
+                <div class="col-10 col-sm-9 col-md-7 col-lg-10 col-xl-8 rounded m-auto div4">
                     <p class="text-light font-weight-bold titulo1">OS MELHORES SABORES...</p>
                     <h4 class="text-light">Faça já sua encomenda</h4>
                     <h6 class="text-light mb-4">Entregamos em sua residência!</h6>
@@ -216,7 +216,7 @@
             <a name="contato"></a>
             <div class="col-12 d-block d-md-flex p-4 text-dark justify-content-center align-items-center bg div5">
                 <div class="margemcontato d-block d-md-flex col-12 justify-content-center align-items-center">
-                    <div class="col-12 zoom col-md-9 col-lg-3 mr-md-4  mb-4 mb-md-0 text-center bg-info p-4" data-anime="esquerda2">
+                    <div data-anime="esquerda2" class="col-12 zoom col-md-9 col-lg-3 mr-md-4  mb-4 mb-md-0 text-center bg-info p-4">
                         <i class="far fa-envelope-open mb-4" style="color: rgb(36, 35, 35); font-size: 60px;"></i>
                         <h5 style="color: rgb(36, 35, 35);">contato@cakebolos.com</h5>
                     </div>
@@ -331,6 +331,21 @@
         window.addEventListener('scroll', function() {
             animaScroll();
         });
+    </script>
+
+    <script>
+        function typeWriter(elemento) {
+            const textoArray = elemento.innerHTML.split('');
+            elemento.innerHTML = '';
+            textoArray.forEach((letra, i) => {
+                setTimeout(() => {
+                    elemento.innerHTML += letra;
+                }, 180 * i);
+            });
+        }
+
+        const titulo = document.querySelector('.titulo1');
+        typeWriter(titulo);
     </script>
 
 </body>
