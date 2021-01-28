@@ -22,14 +22,6 @@
                     height: 100vh;
                 }
                 
-                .botao1 {
-                    color: white;
-                    background: rgb(53, 81, 172);
-                    border: 2px solid white;
-                    box-shadow: 5px 5px rgb(53, 81, 172);
-                    ;
-                }
-                
                 .titulo1 {
                     font-size: 70px;
                     font-family: 'Roboto Slab', serif;
@@ -191,6 +183,16 @@
                     height: 200px;
                 }
                 
+                .carregando {
+                    position: fixed;
+                    left: 0;
+                    top: 0;
+                    width: 100vw;
+                    height: 100vh;
+                    background: black url(../imagens/carregando.gif) no-repeat center;
+                    background-size: 20%;
+                }
+                
                 @media (max-width: 992px) {
                     li a {
                         font-size: 11px;
@@ -207,6 +209,9 @@
                     }
                     .div4 {
                         text-align: center;
+                    }
+                    .carregando {
+                        background-size: 60%;
                     }
                 }
                 
@@ -255,7 +260,7 @@
                 
                 .reco2 {
                     background-color: rgb(14, 13, 13);
-                    border-radius: 0 30px 0 30px;
+                    border-radius: 10px 30px 10px 30px;
                 }
                 
                 .card2 {
@@ -326,4 +331,53 @@
                 
                 .nav li:hover {
                     border-bottom: 2px solid white;
+                }
+                
+                .corpo {
+                    display: none;
+                }
+                
+                .textowriter {
+                    display: none;
+                }
+                
+                .botao {
+                    width: 240px;
+                    height: 50px;
+                }
+                
+                .botao1 {
+                    width: 200px;
+                    height: 40px;
+                    background: rgb(53, 81, 172);
+                    position: absolute;
+                    bottom: 1px;
+                    left: 25px;
+                    border-radius: 25px;
+                }
+                
+                .botao2 {
+                    width: 200px;
+                    height: 40px;
+                    border: 2px solid white;
+                    position: relative;
+                    z-index: 10;
+                    top: 0px;
+                    left: 0px;
+                    border-radius: 25px;
+                }
+                
+                .botaoprev {
+                    position: absolute;
+                    top: 60%;
+                }
+                
+                .botaoprev1 {
+                    position: absolute;
+                    left: 10px;
+                }
+                
+                .botaoprev2 {
+                    position: absolute;
+                    right: 10px;
                 }

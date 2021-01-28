@@ -22,8 +22,9 @@
 </head>
 
 <body>
+    <div class="carregando"></div>
 
-    <div class="container-fluid div1">
+    <div class="container-fluid div1 corpo">
         <div class="row">
             <a name="home"></a>
             <div class="col-12 p-0 d-flex align-items-center fixed-top div3">
@@ -65,23 +66,29 @@
         <div class="row tamanhoTopo">
             <div class="col-12 col-lg-7 div2 p-0 d-flex justify-content-center align-items-center">
                 <div class="col-10 col-sm-9 col-md-7 col-lg-10 col-xl-8 rounded m-auto div4">
-                    <p class="font-weight-bold titulo1">Os Melhores Sabores.</p>
+                    <p class="font-weight-bold titulo1 textowriter">Os Melhores Sabores.</p>
                     <h4 class="text-light">Faça já sua encomenda.</h4>
                     <h6 class="text-light mb-4">Entregamos em sua residência!</h6>
-                    <button class="botao1 font-weight-bold p-1 pl-4 pr-4" style="border-radius: 20px;">Encomende Já! <i class="fab fa-whatsapp"></i></button>
+                    <div class="botao">
+                        <div class="botao1">
+                        </div>
+                        <div class="botao2 d-flex justfy-content-center align-items-center text-center">
+                            <p class="font-weight-bold text-light text-center m-auto">Encomende já! <i class="fab fa-whatsapp ml-2"></i></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="row text-dark align-items-center recomendacoes d-flex justify-content-center " style="background-color: rgb(27, 27, 27);">
             <div class="col-11 col-lg-12 text-center text-white">
-                <h3 class="text-primary font-weight-bold">OQUE NOSSOS CLIENTES DIZEM!</h3>
+                <h3 class="font-weight-bold" style="color: rgb(53, 81, 172);">OQUE NOSSOS CLIENTES DIZEM!</h3>
             </div>
             <div class="col-12 col-lg-4 text-center d-flex justify-content-center align-items-center">
                 <div class="col-12 col-sm-9 col-md-7 col-lg-12 d-flex justify-content-center p-3 p-md-5 align-items-center divrecomendacoes m-auto" data-anime="baixo">
                     <div>
                         <h4 class="text-white m-auto">"Ótimo produto, a qualidade é excelente, já virei cliente continuem assim!"</h4><br/>
-                        <p class="text-right text-primary m-auto">- Nome cliente 1</p>
+                        <p class="text-right m-auto" style="color: rgb(53, 81, 172);">- Nome cliente 1</p>
                     </div>
                 </div>
             </div>
@@ -89,7 +96,7 @@
                 <div class="col-12 col-sm-9 col-md-7 col-lg-12 d-flex justify-content-center p-3 p-md-5 align-items-center divrecomendacoes m-auto" data-anime="baixo2">
                     <div>
                         <h4 class="text-white m-auto mb-4">"Os bolos são ótimos! sempre comprei com vocês e estão cada vez melhor, sou cliente fiel!"</h4><br/>
-                        <p class="text-right text-primary m-auto">- Nome cliente 2</p>
+                        <p class="text-right m-auto" style="color: rgb(53, 81, 172);">- Nome cliente 2</p>
                     </div>
                 </div>
             </div>
@@ -97,18 +104,18 @@
                 <div class="col-12 col-sm-9 col-md-7 col-lg-12 d-flex justify-content-center p-3 p-md-5 align-items-center divrecomendacoes m-auto" data-anime="baixo3">
                     <div>
                         <h4 class="text-white m-auto">"Os bolos são ótimos! sempre comprei com vocês e estão cada vez melhor, sou cliente fiel!"</h4><br/>
-                        <p class="text-right text-primary m-auto">- Nome cliente 3</p>
+                        <p class="text-right m-auto" style="color: rgb(53, 81, 172);">- Nome cliente 3</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <a name="produtos"></a>
-            <div class="col-12 p-0 pt-5">
+            <div class="col-12 p-0 pt-5 pb-5">
 
                 <h1 class="font-weight-bold m-auto text-center" style="color:rgb(24, 24, 24); border-bottom: 4px solid  rgb(24, 23, 23); width: 220px;">CARDÁPIO</h1>
 
-                <div class="col-12 col-lg-10 pl-0 pt-5 pb-0 d-flex justify-content-center align-items-center m-auto owl-carousel slider" style="height: 450px;">
+                <div class="col-12 col-lg-10 pl-4 pt-5 pb-0 d-flex justify-content-center align-items-center m-auto owl-carousel slider" style="height: 450px;">
                     <div class="col-7 col-sm-10 col-md-10 col-lg-9 card2 m-auto">
                         <a href="cenoura.html" class="text-decoration-none">
                             <div class="col-12 cardimagem1">
@@ -118,7 +125,7 @@
                             <h6 class="pt-4 font-weight-bold text-primary">CENOURA</h6>
                             <p class="text-light">Bolo delicioso de Cenoura</p>
                             <p class="font-weight-bold">R$ 30,00</p>
-                            <a href="cenoura.html" class="col-9 bg-primary rounded text-decoration-none text-light d-flex justify-content-center align-items-center" style="height: 30px; bottom: 20px; left: 0; right: 0; margin: auto; position: absolute; font-size: 13px; font-weight: bold;">CONFERIR</a>
+                            <a href="cenoura.html" class="col-9 bg-primary text-decoration-none text-light d-flex justify-content-center align-items-center" style="bottom: 20px; left: 0; right: 0; margin: auto; position: absolute; height: 30px; font-size: 13px; font-weight: bold; border-radius: 20px;">CONFERIR</a>
                         </div>
                     </div>
                     <div class="col-7 col-sm-10 col-md-10 col-lg-9 card2 m-auto">
@@ -130,7 +137,7 @@
                             <h6 class="pt-4 font-weight-bold text-primary">CHOCOLATE</h6>
                             <p class="text-light">Bolo delicioso de Chocolate</p>
                             <p class="font-weight-bold">R$ 30,00</p>
-                            <a href="cenoura.html" class="col-9 bg-primary rounded text-decoration-none text-light d-flex justify-content-center align-items-center" style="bottom: 20px; left: 0; right: 0; margin: auto; position: absolute; height: 30px; font-size: 13px; font-weight: bold;">CONFERIR</a>
+                            <a href="cenoura.html" class="col-9 bg-primary text-decoration-none text-light d-flex justify-content-center align-items-center" style="bottom: 20px; left: 0; right: 0; margin: auto; position: absolute; height: 30px; font-size: 13px; font-weight: bold; border-radius: 20px;">CONFERIR</a>
                         </div>
                     </div>
                     <div class="col-7 col-sm-10 col-md-10 col-lg-9 card2 m-auto">
@@ -142,7 +149,7 @@
                             <h6 class="pt-4 font-weight-bold text-primary">LARANJA</h6>
                             <p class="text-light">Bolo delicioso de Laranja</p>
                             <p class="font-weight-bold">R$ 30,00</p>
-                            <a href="cenoura.html" class="col-9 bg-primary rounded text-decoration-none text-light d-flex justify-content-center align-items-center" style="bottom: 20px; left: 0; right: 0; margin: auto; position: absolute; height: 30px; font-size: 13px; font-weight: bold;">CONFERIR</a>
+                            <a href="cenoura.html" class="col-9 bg-primary text-decoration-none text-light d-flex justify-content-center align-items-center" style="bottom: 20px; left: 0; right: 0; margin: auto; position: absolute; height: 30px; font-size: 13px; font-weight: bold; border-radius: 20px;">CONFERIR</a>
                         </div>
                     </div>
                     <div class="col-7 col-sm-10 col-md-10 col-lg-9 card2 m-auto">
@@ -154,7 +161,7 @@
                             <h6 class="pt-4 font-weight-bold text-primary">LIMÃO</h6>
                             <p class="text-light">Bolo delicioso de Limão</p>
                             <p class="font-weight-bold">R$ 30,00</p>
-                            <a href="cenoura.html" class="col-9 bg-primary rounded text-decoration-none text-light d-flex justify-content-center align-items-center" style="bottom: 20px; left: 0; right: 0; margin: auto; position: absolute; height: 30px; font-size: 13px; font-weight: bold;">CONFERIR</a>
+                            <a href="cenoura.html" class="col-9 bg-primary text-decoration-none text-light d-flex justify-content-center align-items-center" style="bottom: 20px; left: 0; right: 0; margin: auto; position: absolute; height: 30px; font-size: 13px; font-weight: bold; border-radius: 20px;">CONFERIR</a>
                         </div>
                     </div>
                     <div class="col-7 col-sm-10 col-md-10 col-lg-9 card2 m-auto">
@@ -166,13 +173,13 @@
                             <h6 class="pt-4 font-weight-bold text-primary">FORMIGUEIRO</h6>
                             <p class="text-light">Bolo delicioso de Formigueiro</p>
                             <p class="font-weight-bold">R$ 30,00</p>
-                            <a href="cenoura.html" class="col-9 bg-primary rounded text-decoration-none text-light d-flex justify-content-center align-items-center" style="bottom: 20px; left: 0; right: 0; margin: auto; position: absolute; height: 30px; font-size: 13px; font-weight: bold;">CONFERIR</a>
+                            <a href="cenoura.html" class="col-9 bg-primary text-decoration-none text-light d-flex justify-content-center align-items-center" style="bottom: 20px; left: 0; right: 0; margin: auto; position: absolute; height: 30px; font-size: 13px; font-weight: bold; border-radius: 20px;">CONFERIR</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 d-flex m-auto justify-content-center align-items-center">
-                    <button class="btn customPrevBtn m-3 mb-5 text-light font-weight-bold" style="font-size: 18px; background-color: rgb(24, 24, 24);"><</button>
-                    <button class="btn customNextBtn m-3 mb-5 text-light font-weight-bold" style="font-size: 18px; background-color: rgb(24, 24, 24);">></button>
+                <div class="col-12 d-flex m-auto justify-content-center align-items-center botaoprev">
+                    <button class="btn customPrevBtn m-3 mb-5 text-light font-weight-bold botaoprev1" style="font-size: 18px; background-color: rgb(24, 24, 24);"><</button>
+                    <button class="btn customNextBtn m-3 mb-5 text-light font-weight-bold botaoprev2" style="font-size: 18px; background-color: rgb(24, 24, 24);">></button>
                 </div>
             </div>
         </div>
@@ -386,6 +393,21 @@
 
         const titulo = document.querySelector('.titulo1');
         typeWriter(titulo);
+    </script>
+
+    <script>
+        var intervaloTexto = setInterval(function() {
+            clearInterval(intervaloTexto);
+            document.querySelector('.textowriter').style.display = 'inline';
+            const titulo = document.querySelector('.textowriter');
+            typeWriter(titulo);
+        }, 10000);
+
+        var intervalo = setInterval(function() {
+            clearInterval(intervalo);
+            document.querySelector('.carregando').style.display = 'none';
+            document.querySelector('.corpo').style.display = 'block';
+        }, 8000);
     </script>
 
 </body>
