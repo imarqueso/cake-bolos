@@ -27,7 +27,7 @@
                     font-family: 'Roboto Slab', serif;
                     color: white;
                     text-shadow: 2px 2px rgb(53, 81, 172);
-                    letter-spacing: 4px;
+                    letter-spacing: 2px;
                 }
                 
                 .div1 {
@@ -104,53 +104,6 @@
                     height: 25em;
                 }
                 
-                .bg-modal {
-                    position: fixed;
-                    top: -150%;
-                    left: 0;
-                    right: 0;
-                    margin: auto;
-                    height: 100vh;
-                    width: 100vw;
-                    background-color: rgba(20, 20, 20, 0.6);
-                    z-index: 30;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    transition: 350ms;
-                }
-                
-                .modal1 {
-                    background-color: #ffffff;
-                    width: 20%;
-                    min-width: 300px;
-                    text-align: center;
-                    height: 230px;
-                    padding: 25px;
-                    border: 15px solid rgb(31, 31, 31);
-                    box-shadow: 0 0 0 10px white;
-                    position: relative;
-                    margin: auto;
-                    top: 0;
-                    bottom: 0;
-                }
-                
-                .fechar {
-                    position: absolute;
-                    top: -55px;
-                    right: -55px;
-                    width: 40px;
-                    height: 40px;
-                    font-weight: bold;
-                    color: rgb(255, 255, 255);
-                    transition: 350ms;
-                    font-size: 27px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    cursor: pointer;
-                }
-                
                 .zoom {
                     overflow: hidden;
                 }
@@ -204,7 +157,7 @@
                         height: 250px;
                     }
                     .titulo1 {
-                        font-size: 55px;
+                        font-size: 45px;
                         text-align: center;
                     }
                     .div4 {
@@ -370,6 +323,7 @@
                 .botaoprev {
                     position: absolute;
                     top: 60%;
+                    z-index: 50;
                 }
                 
                 .botaoprev1 {
