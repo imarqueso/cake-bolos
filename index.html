@@ -13,7 +13,7 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
@@ -65,10 +65,10 @@
         <div class="row tamanhoTopo">
             <div class="col-12 col-lg-7 div2 p-0 d-flex justify-content-center align-items-center">
                 <div class="col-10 col-sm-9 col-md-7 col-lg-10 col-xl-8 rounded m-auto div4">
-                    <p class="text-light font-weight-bold titulo1">OS MELHORES SABORES...</p>
-                    <h4 class="text-light">Faça já sua encomenda</h4>
+                    <p class="font-weight-bold titulo1">Os Melhores Sabores.</p>
+                    <h4 class="text-light">Faça já sua encomenda.</h4>
                     <h6 class="text-light mb-4">Entregamos em sua residência!</h6>
-                    <button class="btn-primary btn font-weight-bold p-2 pl-4 pr-4" style="border-radius: 20px;">Encomende Já! <i class="fab fa-whatsapp"></i></button>
+                    <button class="botao1 font-weight-bold p-1 pl-4 pr-4" style="border-radius: 20px;">Encomende Já! <i class="fab fa-whatsapp"></i></button>
                 </div>
             </div>
         </div>
@@ -86,7 +86,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-4 text-center d-flex justify-content-center align-items-center reco2 p-0">
-                <div class="col-12 col-sm-9 col-md-7 col-lg-12 d-flex justify-content-center p-3 p-md-5 align-items-center divrecomendacoes m-auto" data-anime="baixo">
+                <div class="col-12 col-sm-9 col-md-7 col-lg-12 d-flex justify-content-center p-3 p-md-5 align-items-center divrecomendacoes m-auto" data-anime="baixo2">
                     <div>
                         <h4 class="text-white m-auto mb-4">"Os bolos são ótimos! sempre comprei com vocês e estão cada vez melhor, sou cliente fiel!"</h4><br/>
                         <p class="text-right text-primary m-auto">- Nome cliente 2</p>
@@ -94,7 +94,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-4 text-center d-flex justify-content-center align-items-center">
-                <div class="col-12 col-sm-9 col-md-7 col-lg-12 d-flex justify-content-center p-3 p-md-5 align-items-center divrecomendacoes m-auto" data-anime="baixo">
+                <div class="col-12 col-sm-9 col-md-7 col-lg-12 d-flex justify-content-center p-3 p-md-5 align-items-center divrecomendacoes m-auto" data-anime="baixo3">
                     <div>
                         <h4 class="text-white m-auto">"Os bolos são ótimos! sempre comprei com vocês e estão cada vez melhor, sou cliente fiel!"</h4><br/>
                         <p class="text-right text-primary m-auto">- Nome cliente 3</p>
@@ -103,9 +103,10 @@
             </div>
         </div>
         <div class="row">
+            <a name="produtos"></a>
             <div class="col-12 p-0 pt-5">
 
-                <h2 class="font-weight-bold m-auto text-center" style="color:rgb(24, 24, 24);">CARDÁPIO</h2>
+                <h1 class="font-weight-bold m-auto text-center" style="color:rgb(24, 24, 24); border-bottom: 4px solid  rgb(24, 23, 23); width: 220px;">CARDÁPIO</h1>
 
                 <div class="col-12 col-lg-10 pl-0 pt-5 pb-0 d-flex justify-content-center align-items-center m-auto owl-carousel slider" style="height: 450px;">
                     <div class="col-7 col-sm-10 col-md-10 col-lg-9 card2 m-auto">
@@ -220,11 +221,11 @@
                         <i class="far fa-envelope-open mb-4" style="color: rgb(36, 35, 35); font-size: 60px;"></i>
                         <h5 style="color: rgb(36, 35, 35);">contato@cakebolos.com</h5>
                     </div>
-                    <div class="col-12 zoom col-md-9 col-lg-3 mr-md-4 mb-4 mb-md-0 text-center p-4 bg-primary" data-anime="esquerda2">
+                    <div class="col-12 zoom col-md-9 col-lg-3 mr-md-4 mb-4 mb-md-0 text-center p-4 bg-primary" data-anime="esquerda3">
                         <i class="fab fa-whatsapp mb-4" style="color: rgb(36, 35, 35); font-size: 60px;"></i>
                         <h5 style="color: rgb(36, 35, 35);">(XX) XXXXX-XXXX</h5>
                     </div>
-                    <div class="col-12 zoom col-md-9 col-lg-3 text-center p-4 bg-info" data-anime="esquerda2">
+                    <div class="col-12 zoom col-md-9 col-lg-3 text-center p-4 bg-info" data-anime="esquerda4">
                         <i class="fab fa-instagram mb-4" style="color: rgb(36, 35, 35); font-size: 60px;"></i>
                         <h5 style="color: rgb(36, 35, 35);">@cakebolosoficial</h5>
                     </div>
@@ -294,19 +295,45 @@
     </script>
 
     <script>
-        const elementos = document.querySelectorAll('[data-anime="baixo"]');
+        const baixo = document.querySelectorAll('[data-anime="baixo"]');
+        const baixo2 = document.querySelectorAll('[data-anime="baixo2"]');
+        const baixo3 = document.querySelectorAll('[data-anime="baixo3"]');
         const animacaoClass = 'animacao';
-        const elemento2 = document.querySelectorAll('[data-anime="esquerda"]');
         const elemento3 = document.querySelectorAll('[data-anime="esquerda2"]');
+        const elemento4 = document.querySelectorAll('[data-anime="esquerda3"]');
+        const elemento5 = document.querySelectorAll('[data-anime="esquerda4"]');
 
         function animaScroll() {
-            const windowTop = window.pageYOffset - 400;
-            elementos.forEach(function(element) {
-                if ((windowTop) > element.offsetTop) {
-                    element.classList.add(animacaoClass);
+
+            const windowTop = window.pageYOffset - 300;
+            baixo.forEach(function(baix1) {
+                if ((windowTop) > baix1.offsetTop) {
+                    baix1.classList.add(animacaoClass);
                 } else {
-                    element.classList.remove(animacaoClass);
+                    baix1.classList.remove(animacaoClass);
                 }
+            });
+
+            baixo2.forEach(function(baix2) {
+                var tempobaixo1 = setInterval(function() {
+                    clearInterval(tempobaixo1);
+                    if ((windowTop) > baix2.offsetTop) {
+                        baix2.classList.add(animacaoClass);
+                    } else {
+                        baix2.classList.remove(animacaoClass);
+                    }
+                }, 500);
+            });
+
+            baixo3.forEach(function(baix3) {
+                var tempobaixo2 = setInterval(function() {
+                    clearInterval(tempobaixo2);
+                    if ((windowTop) > baix3.offsetTop) {
+                        baix3.classList.add(animacaoClass);
+                    } else {
+                        baix3.classList.remove(animacaoClass);
+                    }
+                }, 1000);
             });
 
             const windowTop3 = window.pageYOffset - 1900;
@@ -318,13 +345,26 @@
                 }
             });
 
-            const windowTop2 = window.pageYOffset + 600;
-            elemento2.forEach(function(element2) {
-                if ((windowTop2) > element2.offsetTop) {
-                    element2.classList.add(animacaoClass);
-                } else {
-                    element2.classList.remove(animacaoClass);
-                }
+            elemento4.forEach(function(element4) {
+                var tempo = setInterval(function() {
+                    clearInterval(tempo);
+                    if ((windowTop3) > element4.offsetTop) {
+                        element4.classList.add(animacaoClass);
+                    } else {
+                        element4.classList.remove(animacaoClass);
+                    }
+                }, 400);
+            });
+
+            elemento5.forEach(function(element5) {
+                var tempo2 = setInterval(function() {
+                    clearInterval(tempo2);
+                    if ((windowTop3) > element5.offsetTop) {
+                        element5.classList.add(animacaoClass);
+                    } else {
+                        element5.classList.remove(animacaoClass);
+                    }
+                }, 800);
             });
         }
 
