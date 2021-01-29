@@ -302,7 +302,7 @@
                 .botao1 {
                     width: 200px;
                     height: 40px;
-                    background: rgb(53, 81, 172);
+                    background-image: linear-gradient(to right, rgb(122, 151, 248), rgb(36, 60, 138));
                     position: absolute;
                     bottom: 1px;
                     left: 25px;
@@ -312,7 +312,7 @@
                 .botao2 {
                     width: 200px;
                     height: 40px;
-                    border: 2px solid white;
+                    border: 1px solid white;
                     position: relative;
                     z-index: 10;
                     top: 0px;
