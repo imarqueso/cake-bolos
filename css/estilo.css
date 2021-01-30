@@ -95,7 +95,7 @@
                 }
                 
                 .cardtexto {
-                    height: 200px;
+                    height: 180px;
                     border-radius: 20px;
                     margin-top: 5px;
                 }
@@ -322,7 +322,7 @@
                 
                 .botaoprev {
                     position: absolute;
-                    top: 60%;
+                    top: 55%;
                     z-index: 50;
                 }
                 
