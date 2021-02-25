@@ -18,6 +18,19 @@
         background-color: rgb(49, 49, 49);
     }
     
+    html::-webkit-scrollbar-track {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    
+    html::-webkit-scrollbar {
+        width: 6px;
+        background: rgba(0, 0, 0, 0.26);
+    }
+    
+    html::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.26);
+    }
+    
     .tamanhoTopo {
         height: 100vh;
     }
@@ -28,6 +41,7 @@
         text-shadow: 2px 2px rgb(53, 81, 172);
         letter-spacing: 2px;
         font-family: 'Sanchez', serif;
+        background: rgb(17, 17, 17);
     }
     
     .div1 {
@@ -157,7 +171,7 @@
         background-image: linear-gradient(to right, rgb(122, 151, 248), rgb(36, 60, 138));
         position: absolute;
         bottom: 1px;
-        left: 25px;
+        left: 20px;
         border-radius: 25px;
     }
     
@@ -167,8 +181,14 @@
         border: 1px solid white;
         position: absolute;
         z-index: 10;
-        bottom: 10px;
+        bottom: 8px;
         border-radius: 25px;
+    }
+    
+    .sub1,
+    .sub2 {
+        background-color: white;
+        color: black;
     }
     
     @media (max-width: 900px) {
@@ -190,17 +210,15 @@
         }
         .carregando {
             background-size: 40%;
-            height: 120vh;
         }
         .botao {
             padding-left: 20px;
         }
-        .tamanhoTopo {
-            height: 120vh;
-        }
         .div1 {
             height: 130vh;
-            padding-top: 30px;
+        }
+        .botao1 {
+            left: 25px;
         }
     }
     
