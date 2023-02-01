@@ -16,6 +16,8 @@
     body {
         font-family: 'Open Sans', sans-serif;
         background-color: rgb(49, 49, 49);
+       margin: 0 auto;
+       max-width: 1400px;
     }
     
     html::-webkit-scrollbar-track {
